@@ -3,3 +3,26 @@ str_list.append(5)
 print(str_list)
 
 akito=set()
+akito.add(0)
+akito.add(1)
+akito.remove(0)
+akito.add(2)
+akito.clear()
+print(akito)
+
+#関数のおべんつよ
+def study():
+    print('study');
+study()
+
+def study_cal(a, b):
+    x=a+b
+    return x
+answer=study_cal(7,5)
+print(answer)
+
+# len関数
+print(len("IamAkito"))
+# str関数
+
+
