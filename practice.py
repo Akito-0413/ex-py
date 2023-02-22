@@ -26,3 +26,9 @@ print(len("IamAkito"))
 # str関数
 
 
+#1~10までのそれぞれの数を2乗した値をリストに格納し、出力する
+lst=[]
+for i in range(1,11):
+    lst.append(i ** 2)
+
+    print(lst)
