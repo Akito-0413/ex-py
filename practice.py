@@ -32,3 +32,9 @@ for i in range(1,11):
     lst.append(i ** 2)
 
     print(lst)
+
+#Oだけ出力しないコード
+mojiretsu = "Hello World"
+for char in mojiretsu:
+    if char != "o":
+        print(char)
