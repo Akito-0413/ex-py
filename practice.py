@@ -38,3 +38,8 @@ mojiretsu = "Hello World"
 for char in mojiretsu:
     if char != "o":
         print(char)
+
+mojiretsu = "Hello World"
+for char in mojiretsu:
+    if char != "o":
+        print(char)
